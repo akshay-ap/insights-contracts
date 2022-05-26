@@ -6,5 +6,9 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "./Ownable.sol";
 
 contract ERC721Template is ERC721, Ownable {
-    constructor() ERC721("Template", "Temp") {}
+    constructor(
+        string memory name,
+        string memory symbol,
+        string memory URI
+    ) ERC721(name, symbol) {}
 }
