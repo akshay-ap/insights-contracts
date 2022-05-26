@@ -1,0 +1,75 @@
+{
+  "contractName": "ERC721Factory",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.14+commit.80d49f37\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/ERC721Factory.sol\":\"ERC721Factory\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/ERC721Factory.sol\":{\"keccak256\":\"0x95c5c4224073bc0be288f656e795b52ec9943d312b4dcd913db9fdfc2f7376d9\",\"license\":\"Apache-2.0\",\"urls\":[\"bzz-raw://4402201c26c762afb3a9064d57e8d5e1528ecd64653ffda4f724147f03955f06\",\"dweb:/ipfs/Qmeq3gy35xxHB5kifpgKnZVxVN1Zap8dBBSVtuEFFsXKEM\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220306c48e83ef8fe1a823d7a2a7b8f0925a0fbcf8a0d519847c114ee6d125be33464736f6c634300080e0033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220306c48e83ef8fe1a823d7a2a7b8f0925a0fbcf8a0d519847c114ee6d125be33464736f6c634300080e0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "66:25:9:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "66:25:9:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: Apache-2.0\n\npragma solidity ^0.8.12;\n\ncontract ERC721Factory {}\n",
+  "sourcePath": "/home/ash/Desktop/git/insights-contracts/contracts/ERC721Factory.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/ERC721Factory.sol",
+    "exportedSymbols": {
+      "ERC721Factory": [
+        1585
+      ]
+    },
+    "id": 1586,
+    "license": "Apache-2.0",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1584,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".12"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "40:24:9"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "ERC721Factory",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 1585,
+        "linearizedBaseContracts": [
+          1585
+        ],
+        "name": "ERC721Factory",
+        "nameLocation": "75:13:9",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 1586,
+        "src": "66:25:9",
+        "usedErrors": []
+      }
+    ],
+    "src": "40:52:9"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.14+commit.80d49f37.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.7",
+  "updatedAt": "2022-05-26T13:53:13.209Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
