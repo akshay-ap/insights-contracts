@@ -18,7 +18,7 @@
  *
  */
 
-// const HDWalletProvider = require('@truffle/hdwallet-provider');
+const HDWalletProvider = require("@truffle/hdwallet-provider");
 //
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
@@ -53,10 +53,8 @@ module.exports = {
           process.env.MUMBAI_MNEMONIC,
           process.env.MUMBAI_URL
         ),
-      network_id: 3,
-      confirmations: 2,
-      timeoutBlocks: 200,
-      skipDryRun: false,
+      network_id: 80001,
+      production: true,
     },
     //
     // An additional network, but with some advanced options…
